@@ -24,12 +24,12 @@ a:hover {
   margin: 40px auto;
 }
 .card-white {
-    background-color: #F8EEDB;
-    padding: 40px;
-    box-shadow: 20px 20px 30px rgba(14, 13, 13, 0.1);
-    border-radius: 10px;
-    margin: 20px 0px;
-    text-align: center;
+  background-color: #F8EEDB;
+  padding: 40px;
+  box-shadow: 20px 20px 30px rgba(14, 13, 13, 0.1);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
 }
 .img-circle {
   border-radius: 50%;
@@ -71,7 +71,7 @@ i {
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
-  }
+}
 
 .btn-green:hover {
   background-color: #753531;
