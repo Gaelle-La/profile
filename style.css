@@ -1,0 +1,65 @@
+body {
+  background-color: #D9A06A;
+  font-family: "Junge", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #65503D;
+  font-size: small;
+  line-height:25px;
+}
+h1,h2,h3 {
+  color :#393437;
+  font-size: medium;
+  line-height: 15px;
+}
+a {
+  color: #71713E;
+  text-decoration: none;
+}
+a:hover {
+  color: #753531;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+    background-color: #F8EEDB;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+i {
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
