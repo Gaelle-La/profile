@@ -4,12 +4,12 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #65503D;
-  font-size: small;
-  line-height:25px;
+  font-size: 18px;
+  line-height:30px;
 }
 h1,h2,h3 {
   color :#393437;
-  font-size: medium;
+  font-size: 30px;
   line-height: 15px;
 }
 a {
@@ -26,40 +26,54 @@ a:hover {
 .card-white {
     background-color: #F8EEDB;
     padding: 40px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    box-shadow: 20px 20px 30px rgba(14, 13, 13, 0.1);
+    border-radius: 10px;
     margin: 20px 0px;
     text-align: center;
 }
 .img-circle {
   border-radius: 50%;
 }
-
+li {
+  text-align: match-parent;
+}
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
 }
 i {
   font-size: 50px;
 }
 
 @media (max-width: 960px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
     width: 700px;
   }
 }
 
 @media (max-width: 720px) {
-  /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
     width: 500px;
   }
 }
 
 @media (max-width: 540px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
     width: 300px;
   }
+}
+.btn-green {
+  background-color: #71713E;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  }
+
+.btn-green:hover {
+  background-color: #753531;
+  color: white;
 }
